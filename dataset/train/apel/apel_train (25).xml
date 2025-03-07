@@ -1,0 +1,26 @@
+<annotation>
+	<folder>apel</folder>
+	<filename>apel_train (25).jpg</filename>
+	<path>C:\CODING\skripsi\dataset\train\apel\apel_train (25).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>4928</width>
+		<height>3264</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>apel</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1312</xmin>
+			<ymin>362</ymin>
+			<xmax>3907</xmax>
+			<ymax>3101</ymax>
+		</bndbox>
+	</object>
+</annotation>

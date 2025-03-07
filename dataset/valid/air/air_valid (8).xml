@@ -1,0 +1,26 @@
+<annotation>
+	<folder>air</folder>
+	<filename>air_valid (8).jpeg</filename>
+	<path>C:\CODING\skripsi\dataset\valid\air\air_valid (8).jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>300</width>
+		<height>168</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>air</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>91</xmin>
+			<ymin>7</ymin>
+			<xmax>183</xmax>
+			<ymax>168</ymax>
+		</bndbox>
+	</object>
+</annotation>

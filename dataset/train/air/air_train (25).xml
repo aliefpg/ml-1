@@ -1,0 +1,26 @@
+<annotation>
+	<folder>air</folder>
+	<filename>air_train (25).jpg</filename>
+	<path>C:\CODING\skripsi\dataset\train\air\air_train (25).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>728</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>air</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>129</xmin>
+			<ymin>195</ymin>
+			<xmax>536</xmax>
+			<ymax>642</ymax>
+		</bndbox>
+	</object>
+</annotation>
