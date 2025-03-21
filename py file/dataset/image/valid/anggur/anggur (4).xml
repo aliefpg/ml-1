@@ -1,0 +1,38 @@
+<annotation>
+	<folder>anggur</folder>
+	<filename>anggur (4).jpeg</filename>
+	<path>C:\CODING\tes\dataset\valid\anggur\anggur (4).jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>198</width>
+		<height>255</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>anggur</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>56</xmin>
+			<ymin>40</ymin>
+			<xmax>146</xmax>
+			<ymax>238</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>anggur</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>3</ymin>
+			<xmax>79</xmax>
+			<ymax>147</ymax>
+		</bndbox>
+	</object>
+</annotation>

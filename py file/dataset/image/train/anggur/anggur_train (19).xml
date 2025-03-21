@@ -1,0 +1,38 @@
+<annotation>
+	<folder>anggur</folder>
+	<filename>anggur_train (19).jpg</filename>
+	<path>C:\CODING\skripsi\dataset\train\anggur\anggur_train (19).jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>600</width>
+		<height>461</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>anggur</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>34</xmin>
+			<ymin>129</ymin>
+			<xmax>413</xmax>
+			<ymax>359</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>anggur</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>357</xmin>
+			<ymin>200</ymin>
+			<xmax>600</xmax>
+			<ymax>437</ymax>
+		</bndbox>
+	</object>
+</annotation>
