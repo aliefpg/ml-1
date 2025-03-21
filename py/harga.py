@@ -6,14 +6,14 @@ from tensorflow.keras.models import load_model
 import os
 
 # Load model yang sudah dilatih
-model = load_model(r'model/model_mobilenet.keras')
+model = load_model('model/model_mobilenet.keras')
 
 # Load daftar kelas dari training
 class_indices = {'air': 0, 'anggur': 1, 'apel': 2}
 class_labels = {v: k for k, v in class_indices.items()}
 
 # Baca file CSV harga
-df_harga = pd.read_csv(r'dataset/data_harga.csv', sep=";")
+df_harga = pd.read_csv('dataset/data_harga.csv', sep=";")
 df_harga["nama"] = df_harga["nama"].str.lower()
 
 # Fungsi untuk mendapatkan harga berdasarkan nama barang

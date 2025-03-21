@@ -60,11 +60,11 @@ model.compile(optimizer=Adam(learning_rate=1e-4),
 history = model.fit(
     train_generator,
     validation_data=valid_generator,
-    epochs=20
+    epochs=5
 )
 
 # 8. Simpan Model
-model.save(r"model/model_mobilenet.keras")
+model.save("model/model_mobilenet2.keras")
 
 # 9. Ambil akurasi akhir dari training dan validasi
 final_train_acc = history.history['accuracy'][-1] * 100

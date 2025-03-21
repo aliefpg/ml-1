@@ -5,7 +5,7 @@ import numpy as np
 import os
 
 # Load the trained model
-model = load_model(r'model/model_mobilenet.keras')
+model = load_model('model/model_mobilenet.keras')
 
 # Define class labels
 class_names = ['air', 'anggur', 'apel']

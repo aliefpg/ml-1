@@ -11,14 +11,14 @@ from PIL import Image
 app = FastAPI()
 
 # Load model yang sudah dilatih
-model = load_model('model_mobilenet.keras')
+model = load_model('py/model/model_mobilenet.keras')
 
 # Load daftar kelas dari training
 class_indices = {'air': 0, 'anggur': 1, 'apel': 2}
 class_labels = {v: k for k, v in class_indices.items()}
 
 # Baca file CSV harga
-df_harga = pd.read_csv('data_harga.csv', sep=";")
+df_harga = pd.read_csv('py/dataset/data_harga.csv', sep=";")
 df_harga["nama"] = df_harga["nama"].str.lower()
 
 # Fungsi untuk mendapatkan harga berdasarkan nama barang

@@ -10,7 +10,7 @@
 
 ### 2. Struktur Folder
 ```
-/my-project
+/py
 │
 ├── /dataset
 │   ├── /image
@@ -62,5 +62,5 @@
    ```
 6. **Menjalankan API FastAPI**
    ```sh
-   uvicorn fastapi_model_api:app --reload
+  uvicorn py.fastapi_model_api:app --reload
    ```

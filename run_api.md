@@ -1,4 +1,4 @@
-# Panduan Menjalankan API Prediksi Kulit dengan FastAPI
+# Panduan Menjalankan API Prediksi dengan FastAPI
 
 ## 📌 Persyaratan
 Pastikan Anda telah menginstal Python dan pip. Jika belum, silakan unduh dan instal dari [python.org](https://www.python.org/).
@@ -12,7 +12,7 @@ pip install fastapi uvicorn tensorflow pillow numpy
 ## 🚀 Menjalankan API
 Simpan skrip FastAPI di file Python, misalnya `fastapi_model_api.py`, lalu jalankan perintah berikut:
 ```sh
-uvicorn fastapi_model_api.py:app --reload
+uvicorn py.fastapi_model_api:app --reload
 ```
 Setelah itu, API akan berjalan di `http://127.0.0.1:8000`.
 
