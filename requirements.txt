@@ -1,0 +1,10 @@
+### Daftar Dependensi
+```
+tensorflow
+fastapi
+uvicorn
+numpy
+pandas
+pillow
+
+```
